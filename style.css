@@ -69,12 +69,16 @@ code {
     display: none;
 }
 
+
+
 #header-tittle-2 {
     color: black;
     margin: 10px;
     text-align: center;
     font-size: 1.8em;
+    width: 100%;
     display: none;
+
 }
 
 @media (max-width: 600px) {
@@ -85,7 +89,7 @@ code {
 }
     #div-main {
         position: absolute;
-        margin: 60px auto 110px auto;
+        margin: 100px auto 110px auto;
         padding: 10px;
     
 }
@@ -99,16 +103,24 @@ code {
     position: fixed;
     top: 0px;
     z-index: 10;
-    background-color: darkred;
+    background-color:#696e72;
 }
 
 #nav-select {
     display: block;
     margin: auto;
     position: fixed;
-    top: 50px;
+    top: 43px;
     z-index: 10;
-    background-color: darkred;
+    background-color:#696e72;
+    cursor: pointer;
+    width:90%;
+    border-top: solid 3px white;
+}
+
+#div-header {
+    background-color: aqua !important;
+    width: 100%;
 }
 
 
